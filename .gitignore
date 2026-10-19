@@ -1,0 +1,16 @@
+# Local build outputs
+/bin/
+*.test
+coverage.out
+
+# macOS metadata
+.DS_Store
+
+# Generated deployment export, change report and local comparison baseline
+/deploy/
+/deploy.md
+/.deploy-state.json
+
+# Python caches
+__pycache__/
+*.py[cod]
